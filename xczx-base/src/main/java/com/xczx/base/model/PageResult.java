@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * @description 分页查询结果模型类
- * @author Mr.M
+ * @author cyhjava
  * @date 2022/9/6 14:15
  * @version 1.0
  */
