@@ -10,9 +10,6 @@
     </parent>
 
     <artifactId>xczx-content</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>xczx-content</name>
-    <description>xczx-content</description>
     <packaging>pom</packaging>
 
     <modules>
@@ -20,4 +17,6 @@
         <module>xczx-content-model</module>
         <module>xczx-content-service</module>
     </modules>
+
+
 </project>

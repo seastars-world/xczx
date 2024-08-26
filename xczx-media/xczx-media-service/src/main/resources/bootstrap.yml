@@ -1,0 +1,18 @@
+#微服务配置
+spring:
+  application:
+    name: media-service
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.88.221:8848
+        namespace: ${spring.profiles.active}
+        group: xczx-project
+        file-extension: yaml
+        refresh-enabled: true
+        shared-configs:
+          - data-id: logging-${spring.profiles.active}.yaml
+            group: xczx-common
+            refresh: true

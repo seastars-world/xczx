@@ -9,10 +9,7 @@
         <relativePath>../xczx-parent</relativePath>
     </parent>
     <artifactId>xczx-system</artifactId>
-    <name>xczx-system</name>
-    <description>xczx-system</description>
     <packaging>pom</packaging>
-
     <modules>
         <module>xczx-system-api</module>
         <module>xczx-system-service</module>

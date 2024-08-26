@@ -6,8 +6,7 @@
     <groupId>com.xczx</groupId>
     <artifactId>xczx-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>xczx-parent</name>
-    <description>xczx-parent</description>
+
     <packaging>pom</packaging>
 
     <properties>

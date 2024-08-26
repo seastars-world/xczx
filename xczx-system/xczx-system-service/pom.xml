@@ -8,15 +8,17 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>xczx-system-service</artifactId>
-    <name>xczx-system-service</name>
-    <description>xczx-system-service</description>
-    <version>0.0.1-SNAPSHOT</version>
-
     <dependencies>
         <dependency>
             <groupId>com.xczx</groupId>
             <artifactId>xczx-system-model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <!--cloud基础环境包-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-context</artifactId>
         </dependency>
 
         <!-- MySQL 驱动 -->
@@ -31,10 +33,7 @@
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-context</artifactId>
-        </dependency>
+
         <!-- Spring Boot 集成 Junit -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -57,6 +56,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
 
 

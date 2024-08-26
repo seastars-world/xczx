@@ -16,12 +16,12 @@ import java.util.List;
  * @author cyhjava
  * @version 1.0
  */
- @Api(value = "课程计划编辑接口",tags = "课程计划编辑接口")
- @RestController
+@Api(value = "课程计划管理接口",tags = "课程计划编辑接口")
+@RestController
 public class TeachplanController {
 
      @Autowired
-     private TeachplanService teachplanService;
+     TeachplanService teachplanService;
 
      @ApiOperation("查询课程计划树形结构")
      @ApiImplicitParam(value = "courseId",name = "课程Id",required = true,dataType = "Long",paramType = "path")

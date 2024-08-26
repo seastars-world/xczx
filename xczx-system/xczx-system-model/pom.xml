@@ -8,10 +8,6 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>xczx-system-model</artifactId>
-    <name>xczx-system-model</name>
-    <description>xczx-system-model</description>
-    <version>0.0.1-SNAPSHOT</version>
-
     <dependencies>
         <dependency>
             <groupId>com.xczx</groupId>
@@ -28,10 +24,6 @@
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-core</artifactId>
             <version>${mybatis-plus-boot-starter.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 </project>
